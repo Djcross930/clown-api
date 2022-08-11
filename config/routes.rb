@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   post "/bookings" => "bookings#create"
 
   get "/clowns" => "clowns#index"
+  get "/clowns/:id" => "clowns#show"
 
 end

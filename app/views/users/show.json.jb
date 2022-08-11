@@ -2,7 +2,7 @@
   id: @user.id,
   name: @user.name,
   address: @user.address,
-  clowns_used: @user.clowns,
+  clowns_booked: @user.clowns,
   created_at: @user.created_at,
   updated_at: @user.updated_at
 }

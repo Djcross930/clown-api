@@ -1,0 +1,8 @@
+{
+  id: @clown.id,
+  name: @clown.name,
+  shoe_size: @clown.shoe_size,
+  users_booked: @clown.users,
+  created_at: @clown.created_at,
+  updated_at: @clown.updated_at
+}

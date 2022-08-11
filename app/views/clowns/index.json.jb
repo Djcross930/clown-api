@@ -1,0 +1,6 @@
+@clowns.map do |clown|
+  {
+    id: clown.id,
+    url: clown_url(clown, format: :json)
+  }
+end
