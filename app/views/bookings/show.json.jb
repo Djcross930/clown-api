@@ -1,0 +1,5 @@
+{
+  id: @booking.id,
+  created_at: @booking.created_at,
+  updated_at: @booking.updated_at
+}

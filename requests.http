@@ -3,7 +3,7 @@ GET http://localhost:3000/users.json
 
 ### user show
 
-Get http://localhost:3000/users/1
+Get http://localhost:3000/users/4.json
 
 ### user create
 
@@ -15,10 +15,14 @@ Content-Type: application/json
   "address": "24 W bird st"
 }
 
-###
+### BOOKING INDEX
 GET http://localhost:3000/bookings
 
-###
+### BOOKING SHOW
+
+GET http://localhost:3000/bookings/1
+
+### BOOKING CREATE
 
 POST http://localhost:3000/bookings
 Content-Type: application/json
@@ -27,4 +31,7 @@ Content-Type: application/json
   "user_id": 4,
   "clown_id": 1
 }
+
+### CLOWNS INDEX
+GET http://localhost:3000/clowns
 

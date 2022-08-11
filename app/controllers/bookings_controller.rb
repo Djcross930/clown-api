@@ -4,6 +4,11 @@ class BookingsController < ApplicationController
     render json: bookings.as_json
   end
 
+  def show
+    booking = Booking.find_by(id: params[:id])
+    render json: booking.as_json
+  end
+
   def create
     booking = Booking.new
     booking.user_id = params[:user_id]

@@ -1,0 +1,6 @@
+@bookings.map do |booking|
+  {
+    id: booking.id,
+    url: booking_url(booking, format: :json)
+  }
+end

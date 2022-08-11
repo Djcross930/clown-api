@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   post "/users" => "users#create"
 
   get "/bookings" => "bookings#index"
+  get "/bookings/:id" => "bookings#show"
   post "/bookings" => "bookings#create"
+
+  get "/clowns" => "clowns#index"
 
 end
