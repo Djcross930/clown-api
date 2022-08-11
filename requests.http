@@ -15,3 +15,16 @@ Content-Type: application/json
   "address": "24 W bird st"
 }
 
+###
+GET http://localhost:3000/bookings
+
+###
+
+POST http://localhost:3000/bookings
+Content-Type: application/json
+
+{
+  "user_id": 4,
+  "clown_id": 1
+}
+
