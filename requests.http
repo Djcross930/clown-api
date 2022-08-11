@@ -1,0 +1,17 @@
+### users index
+GET http://localhost:3000/users.json
+
+### user show
+
+Get http://localhost:3000/users/1
+
+### user create
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Jim",
+  "address": "24 W bird st"
+}
+
